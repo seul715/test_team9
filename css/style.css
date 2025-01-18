@@ -161,7 +161,7 @@ ol ul {
 /* 슬라이드 내부 */
 .carousel-inner-2 {
   display: flex;
-  width: calc(300px * 9 + 16px * 8); /* 9개의 이미지 + 마진을 포함한 전체 너비 계산 (마진은 16px씩) */
+  width: calc(300px * 9 + 16px * 9); /* 9개의 이미지 + 마진을 포함한 전체 너비 계산 (마진은 16px씩) */
   animation: slide 27s linear infinite; /* 애니메이션 설정 */
 }
 
@@ -182,14 +182,14 @@ ol ul {
 
 /* 마지막 이미지는 마진을 제거하여 화면에서 밀리지 않도록 처리 */
 .carousel-item-2 img:last-child {
-  margin-right: 0;
+  margin-right :0;
 }
 
 /* 애니메이션 */
 @keyframes slide {
   0% {
-    transform: translateX(0); /* 처음 상태 */
-  }
+    transform: translateX(0);
+}
   33.33% {
     transform: translateX(-33.33%); /* 첫 번째 그룹의 1/3이 지나가고 두 번째 그룹이 나타남 */
   }

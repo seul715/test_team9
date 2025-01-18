@@ -87,7 +87,7 @@
   
   .membership-last{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
   }
   
   .next-btn{
@@ -233,8 +233,7 @@ input:focus {
     padding: 10px;
   }
 
-  /* 이부분이 전체 row가 해당되어서 문제가 된다.  */
-  .row2 {
+  .row {
     display: block;
     padding: 0;
   }
