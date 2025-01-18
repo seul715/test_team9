@@ -1,0 +1,237 @@
+/* nav 시작 */
+  
+.navbar {
+    padding: 0;
+  }
+  
+  .bg-light {
+    background-color: white !important;
+  }
+  
+  .navbar-brand {
+    margin-right: 2rem;
+  }
+  
+  .nav-link {
+    margin-right: 1rem;
+    
+  }
+  
+  .nav-link:hover {
+    border-bottom: 2px solid #7D9652;
+  }
+  
+  /* .dropdown-toggle::after {
+    display: none;
+  } */
+  
+  .nav-link {
+    font-weight: 600;
+  }
+  
+  .dropdown-menu {
+    border: none;
+    color: rgba(0, 0, 0, .55);;
+    padding-top: 0;
+    border-radius: 0;
+  }
+  
+  .dropdown-item {
+    padding-left: 0.2rem;
+    font-size: 0.9rem;
+    width: 60%;
+  }
+  
+  .dropdown-item:hover {
+    border-bottom: 2px solid #7D9652;
+    background-color: white;
+  }
+  
+  .nav-right {
+    font-size: 0.8rem;
+  }
+  
+  .nav-right:hover {
+    border-bottom: none;
+    font-size: 0.9rem;
+  }
+  
+  /* nav 끝 */
+
+.mypage-font-title{
+    font-weight: bold;
+}
+.mypage-custom-btn {
+    width: 100%; 
+    height: 3rem; 
+    font-size: 1.2rem; /* 글자 크기도 같이 늘리고 싶어서 설정함 */
+}
+.event-bar-img {
+    width: 100%; /* 화면 너비에 맞추기 */
+    height: auto; /* 비율을 유지하면서 높이를 자동 조정 */
+    object-fit: cover; /* 내용이 잘리지 않고 비율에 맞도록 조정 */
+}
+
+.card {
+    /* 카드 내용에 따라서 높이 다 다름 수정하기 위해서  */
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    height: 100%; 
+}
+.card-body {
+    /* 위에 코드로 높이를 동일하게 주니까 버튼의 높이가 또 다 달라서.. 설정함 */
+    flex-grow: 1; /* 내용이 카드 내부 공간을 채우도록 설정 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mypage-card-img {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* 카드 이미지 비율이 안맞아서 이미지가 잘리더라고 1:1 비율으로 보이도록 설정하기 위해서 */
+    object-fit: cover;
+}
+.btn{
+    background-color: #CDDEAF;
+    border: 1px solid #CDDEAF;
+    color: black;
+    font-weight: 700;
+    font-size: 22px;
+}
+.card:hover{
+    box-shadow: 0 1px 1px rgb(0, 0, 0 / 50%);
+    border: 5px solid #CDDEAF;
+}
+.btn:hover{
+    box-shadow: 0 1px 1px rgb(0, 0, 0 / 10%);
+    background-color: #7D9652;
+    border: 1px solid #dadce0;
+    color: white;
+
+}
+
+/* 푸터 시작 */
+  
+footer {
+    background-color: #7D9652;
+    font-size: 14px;
+    color: #202124;
+  }
+  
+  .footer-section h4 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .footer-section p {
+    margin-bottom: 0;
+  }
+  
+  .footer-section p, .footer-section a, .footer-section strong {
+    font-size: 0.8em;
+    color: #202124;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 1em;
+  }
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  input[type="email"] {
+    width: 180px;
+    padding: 8px;
+    font-size: 0.8em;
+  }
+  
+  input:hover {
+    border: 1px solid #CDDEAF;
+  }
+  
+  input:focus {
+    outline: 1px solid #CDDEAF;
+    border: none;
+  }
+  
+  .footer-button {
+    padding: 8px 15px;
+    height: 36px;
+    font-size: 0.8em;
+    background-color: #CDDEAF;
+    color: #202124;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* 모바일 버전 (모바일 화면 크기 이하) */
+  @media (max-width: 768px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  
+    .footer-section {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  
+    .footer-section h4 {
+      font-size: 1.1em;
+      margin-bottom: 15px;
+    }
+  
+    .footer-section p, .footer-section a, .footer-section strong {
+      font-size: 0.9em;
+    }
+  
+    .footer-bottom {
+      font-size: 0.9em;
+    }
+  
+    input[type="email"] {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .footer-button {
+      width: 100%;
+      font-size: 1em;
+      padding: 10px;
+    }
+  
+    .row {
+      display: block;
+      padding: 0;
+    }
+  
+    .col {
+      width: 100%;
+      padding: 0;
+      text-align: center;
+    }
+  
+    .footer-section ul li {
+      margin: 10px 0;
+    }
+  }
+  
+  
+  
+  /* 푸터 끝 */

@@ -1,0 +1,118 @@
+/* nav 시작 */
+  
+.navbar {
+    padding: 0;
+  }
+  
+  .bg-light {
+    background-color: white !important;
+  }
+  
+  .navbar-brand {
+    margin-right: 2rem;
+  }
+  
+  .nav-link {
+    margin-right: 1rem;
+    
+  }
+  
+  .nav-link:hover {
+    border-bottom: 2px solid #7D9652;
+  }
+  
+  /* .dropdown-toggle::after {
+    display: none;
+  } */
+  
+  .nav-link {
+    font-weight: 600;
+  }
+  
+  .dropdown-menu {
+    border: none;
+    color: rgba(0, 0, 0, .55);;
+    padding-top: 0;
+    border-radius: 0;
+  }
+  
+  .dropdown-item {
+    padding-left: 0.2rem;
+    font-size: 0.9rem;
+    width: 60%;
+  }
+  
+  .dropdown-item:hover {
+    border-bottom: 2px solid #7D9652;
+    background-color: white;
+  }
+  
+  .nav-right {
+    font-size: 0.8rem;
+  }
+  
+  .nav-right:hover {
+    border-bottom: none;
+    font-size: 0.9rem;
+  }
+  
+  /* nav 끝 */
+  
+.login-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 화면 전체 높이 */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.login-box {
+    width: 400px;
+    margin: 0 auto; /* 중앙 정렬 */
+}
+
+.loginpage-style {
+    text-decoration: none;
+    color: black;
+}
+
+.login-input-box {
+    width: 400px;
+    height: 60px;
+    border: 1px solid #CDDEAF;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+.login-btn {
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #CDDEAF;
+    background-color: #7D9652;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.login-btn:hover {
+    box-shadow: 0 1px 1px rgb(0, 0, 0 / 10%);
+    background-color: #CDDEAF;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+@media screen and (max-width: 768px) {
+    .login-box {
+        width: 90%; 
+    }
+    .login-input-box,
+    .login-btn {
+        width: 100%; 
+        height: 50px; 
+    }
+}

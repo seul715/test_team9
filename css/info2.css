@@ -1,0 +1,227 @@
+/* nav 시작 */
+  
+.navbar {
+  padding: 0;
+}
+
+.bg-light {
+  background-color: white !important;
+}
+
+.navbar-brand {
+  margin-right: 2rem;
+}
+
+.nav-link {
+  margin-right: 1rem;
+  
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #7D9652;
+}
+
+/* .dropdown-toggle::after {
+  display: none;
+} */
+
+.nav-link {
+  font-weight: 600;
+}
+
+.dropdown-menu {
+  border: none;
+  color: rgba(0, 0, 0, .55);;
+  padding-top: 0;
+  border-radius: 0;
+}
+
+.dropdown-item {
+  padding-left: 0.2rem;
+  font-size: 0.9rem;
+  width: 60%;
+}
+
+.dropdown-item:hover {
+  border-bottom: 2px solid #7D9652;
+  background-color: white;
+}
+
+.nav-right {
+  font-size: 0.8rem;
+}
+
+.nav-right:hover {
+  border-bottom: none;
+  font-size: 0.9rem;
+}
+
+/* nav 끝 */
+.area-about{
+  padding:0px;
+  font-size:40px;
+}
+
+.about-script{
+  padding-top:20px;
+  font-size:40px;
+}
+
+.carousel-img{ /* 캐러셀에서 서로 다른 크기의 이미지들 크기 맞춤 /
+  height:600px;
+  object-fit: cover;
+}
+
+.carousel-caption{ / 캐러셀 캡션 영역 너비 화면 전체로 확대, 반투명 배경 적용 */
+  left:0%;
+  right:0%;
+  background: rgba(0,0,0,0.5);
+  width:100%;
+}
+
+.area-description{
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  width: 10rem;
+}
+.section-description{
+  display: flex;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  .section-description{
+      display: flex;
+      flex-direction: column;
+  }
+
+}
+
+/* 푸터 시작 */
+  
+footer {
+  background-color: #7D9652;
+  font-size: 14px;
+  color: #202124;
+}
+
+.footer-section h4 {
+  font-size: 1em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.footer-section p {
+  margin-bottom: 0;
+}
+
+.footer-section p, .footer-section a, .footer-section strong {
+  font-size: 0.8em;
+  color: #202124;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 1em;
+}
+.footer-bottom p {
+  margin: 0;
+}
+
+input[type="email"] {
+  width: 180px;
+  padding: 8px;
+  font-size: 0.8em;
+}
+
+input:hover {
+  border: 1px solid #CDDEAF;
+}
+
+input:focus {
+  outline: 1px solid #CDDEAF;
+  border: none;
+}
+
+.footer-button {
+  padding: 8px 15px;
+  height: 36px;
+  font-size: 0.8em;
+  background-color: #CDDEAF;
+  color: #202124;
+  border: none;
+  cursor: pointer;
+}
+
+/* 모바일 버전 (모바일 화면 크기 이하) */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer-section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .footer-section h4 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+
+  .footer-section p, .footer-section a, .footer-section strong {
+    font-size: 0.9em;
+  }
+
+  .footer-bottom {
+    font-size: 0.9em;
+  }
+
+  input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .footer-button {
+    width: 100%;
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  .row {
+    display: block;
+    padding: 0;
+  }
+
+  .col {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .footer-section ul li {
+    margin: 10px 0;
+  }
+}
+
+
+
+/* 푸터 끝 */

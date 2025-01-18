@@ -1,0 +1,44 @@
+.area-about{
+    padding:0px;
+    font-size:40px;
+}
+
+.about-script{
+    padding-top:20px;
+    font-size:40px;
+}
+
+.carousel-img{ /* 캐러셀에서 서로 다른 크기의 이미지들 크기 맞춤 */
+    height:600px;
+    object-fit: cover;
+}
+
+.carousel-caption{ /* 캐러셀 캡션 영역 너비 화면 전체로 확대, 반투명 배경 적용 */
+    left:0%;
+    right:0%;
+    background: rgba(0,0,0,0.5);
+    width:100%;
+}
+
+.area-description{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 10rem;
+}
+.section-description{
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .section-description{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+

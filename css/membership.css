@@ -1,0 +1,255 @@
+/* nav 시작 */
+  
+.navbar {
+  padding: 0;
+}
+
+.bg-light {
+  background-color: white !important;
+}
+
+.navbar-brand {
+  margin-right: 2rem;
+}
+
+.nav-link {
+  margin-right: 1rem;
+  
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #7D9652;
+}
+
+/* .dropdown-toggle::after {
+  display: none;
+} */
+
+.nav-link {
+  font-weight: 600;
+}
+
+.dropdown-menu {
+  border: none;
+  color: rgba(0, 0, 0, .55);;
+  padding-top: 0;
+  border-radius: 0;
+}
+
+.dropdown-item {
+  padding-left: 0.2rem;
+  font-size: 0.9rem;
+  width: 60%;
+}
+
+.dropdown-item:hover {
+  border-bottom: 2px solid #7D9652;
+  background-color: white;
+}
+
+.nav-right {
+  font-size: 0.8rem;
+}
+
+.nav-right:hover {
+  border-bottom: none;
+  font-size: 0.9rem;
+}
+
+/* nav 끝 */
+
+.month-plan-main {
+    /* main 클래스 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center;
+  }
+  
+  .membership-text-style{
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  .month-plan {
+    width: 500px;
+    height: 80px;
+    border: 3px solid #CDDEAF;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .membership-first{
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .membership-last{
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  .next-btn{
+    width: 400px;
+    height: 60px;
+    border: 3px solid #7D9652;
+    border-radius: 10px;
+    background-color: #7D9652;
+    color: white;
+  }
+  
+  .next-btn-text{
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .month-plan:hover {
+    box-shadow: 0 1px 1px rgb(0, 0, 0 / 10%);
+    background-color: #CDDEAF;
+    border: 1px solid #dadce0;
+    color: #202124;
+  }
+  
+  .next-btn:hover {
+    box-shadow: 0 1px 1px rgb(0, 0, 0 / 10%);
+    background-color: #CDDEAF;
+    border: 1px solid #dadce0;
+    color: #202124;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .next-btn, .month-plan {
+        width: 100%; /* 입력 상자와 버튼을 화면 너비에 맞춤 */
+        height: 50px; /* 높이를 줄여 모바일에 적합하게 처리함 */
+    }
+  }
+
+  
+/* 푸터 시작 */
+  
+footer {
+  background-color: #7D9652;
+  font-size: 14px;
+  color: #202124;
+}
+
+.footer-section h4 {
+  font-size: 1em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.footer-section p {
+  margin-bottom: 0;
+}
+
+.footer-section p, .footer-section a, .footer-section strong {
+  font-size: 0.8em;
+  color: #202124;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 1em;
+}
+.footer-bottom p {
+  margin: 0;
+}
+
+input[type="email"] {
+  width: 180px;
+  padding: 8px;
+  font-size: 0.8em;
+}
+
+input:hover {
+  border: 1px solid #CDDEAF;
+}
+
+input:focus {
+  outline: 1px solid #CDDEAF;
+  border: none;
+}
+
+.footer-button {
+  padding: 8px 15px;
+  height: 36px;
+  font-size: 0.8em;
+  background-color: #CDDEAF;
+  color: #202124;
+  border: none;
+  cursor: pointer;
+}
+
+/* 모바일 버전 (모바일 화면 크기 이하) */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer-section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .footer-section h4 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+
+  .footer-section p, .footer-section a, .footer-section strong {
+    font-size: 0.9em;
+  }
+
+  .footer-bottom {
+    font-size: 0.9em;
+  }
+
+  input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .footer-button {
+    width: 100%;
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  /* 이부분이 전체 row가 해당되어서 문제가 된다.  */
+  .row2 {
+    display: block;
+    padding: 0;
+  }
+
+  .col {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .footer-section ul li {
+    margin: 10px 0;
+  }
+}
+
+
+
+/* 푸터 끝 */
