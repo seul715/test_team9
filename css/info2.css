@@ -1,5 +1,5 @@
 /* nav 시작 */
-  
+
 .navbar {
   padding: 0;
 }
@@ -14,7 +14,7 @@
 
 .nav-link {
   margin-right: 1rem;
-  
+
 }
 
 .nav-link:hover {
@@ -51,9 +51,30 @@
   font-size: 0.8rem;
 }
 
-.nav-right:hover {
+.login:hover {
   border-bottom: none;
   font-size: 0.9rem;
+}
+
+.try-now {
+  border: 1px solid #CDDEAF;
+  background-color: #7D9652;
+  border-radius: 10px;
+}
+
+.try-now:hover {
+  background-color: #CDDEAF;
+  border: 1px solid #dadce0;
+}
+
+@media screen and (max-width: 768px) {
+
+  .try-now {
+    border: none;
+    background-color: white;
+    border-radius: 0;
+  }
+
 }
 
 /* nav 끝 */

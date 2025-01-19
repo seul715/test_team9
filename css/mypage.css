@@ -1,62 +1,83 @@
 /* nav 시작 */
-  
+
 .navbar {
-    padding: 0;
-  }
-  
-  .bg-light {
-    background-color: white !important;
-  }
-  
-  .navbar-brand {
-    margin-right: 2rem;
-  }
-  
-  .nav-link {
-    margin-right: 1rem;
-    
-  }
-  
-  .nav-link:hover {
-    border-bottom: 2px solid #7D9652;
-  }
-  
-  /* .dropdown-toggle::after {
-    display: none;
-  } */
-  
-  .nav-link {
-    font-weight: 600;
-  }
-  
-  .dropdown-menu {
+  padding: 0;
+}
+
+.bg-light {
+  background-color: white !important;
+}
+
+.navbar-brand {
+  margin-right: 2rem;
+}
+
+.nav-link {
+  margin-right: 1rem;
+
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #7D9652;
+}
+
+/* .dropdown-toggle::after {
+  display: none;
+} */
+
+.nav-link {
+  font-weight: 600;
+}
+
+.dropdown-menu {
+  border: none;
+  color: rgba(0, 0, 0, .55);;
+  padding-top: 0;
+  border-radius: 0;
+}
+
+.dropdown-item {
+  padding-left: 0.2rem;
+  font-size: 0.9rem;
+  width: 60%;
+}
+
+.dropdown-item:hover {
+  border-bottom: 2px solid #7D9652;
+  background-color: white;
+}
+
+.nav-right {
+  font-size: 0.8rem;
+}
+
+.login:hover {
+  border-bottom: none;
+  font-size: 0.9rem;
+}
+
+.try-now {
+  border: 1px solid #CDDEAF;
+  background-color: #7D9652;
+  border-radius: 10px;
+}
+
+.try-now:hover {
+  background-color: #CDDEAF;
+  border: 1px solid #dadce0;
+}
+
+@media screen and (max-width: 768px) {
+
+  .try-now {
     border: none;
-    color: rgba(0, 0, 0, .55);;
-    padding-top: 0;
+    background-color: white;
     border-radius: 0;
   }
-  
-  .dropdown-item {
-    padding-left: 0.2rem;
-    font-size: 0.9rem;
-    width: 60%;
-  }
-  
-  .dropdown-item:hover {
-    border-bottom: 2px solid #7D9652;
-    background-color: white;
-  }
-  
-  .nav-right {
-    font-size: 0.8rem;
-  }
-  
-  .nav-right:hover {
-    border-bottom: none;
-    font-size: 0.9rem;
-  }
-  
-  /* nav 끝 */
+
+}
+
+/* nav 끝 */
 
 .mypage-font-title{
     font-weight: bold;
