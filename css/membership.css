@@ -78,6 +78,7 @@
     border: 3px solid #CDDEAF;
     border-radius: 10px;
     background-color: white;
+    cursor: pointer;
   }
 
   .membership-first{
