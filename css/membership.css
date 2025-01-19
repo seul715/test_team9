@@ -69,7 +69,7 @@
   
   .membership-text-style{
     font-weight: 700;
-    font-size: 32px;
+    font-size: 30px;
   }
   
   .month-plan {
@@ -233,7 +233,8 @@ input:focus {
     padding: 10px;
   }
 
-  .row {
+  /* 스타일 줄때 이름만 줘서 오류..ㅜ (row1으로 임시방편 ) */
+  .row1 {
     display: block;
     padding: 0;
   }
